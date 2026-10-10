@@ -1,6 +1,6 @@
 {
   "name": "pex-ramp",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Package description.",
   "keywords": [
     "keyword-1",
@@ -36,6 +36,9 @@
   },
   "main": "./index.js",
   "types": "./types/index.d.ts",
+  "scripts": {
+    "release": "npx snowdev release"
+  },
   "engines": {
     "node": ">=22.0.0"
   },
