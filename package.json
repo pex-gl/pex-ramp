@@ -1,0 +1,43 @@
+{
+  "name": "pex-ramp",
+  "version": "1.0.0",
+  "description": "Package description.",
+  "keywords": [
+    "keyword-1",
+    "keyword-2",
+    "keyword-3",
+    "keyword-4"
+  ],
+  "homepage": "https://github.com/vorg/pex-ramp",
+  "bugs": "https://github.com/vorg/pex-ramp/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vorg/pex-ramp.git"
+  },
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://paypal.me/dmnsgn"
+    },
+    {
+      "type": "individual",
+      "url": "https://commerce.coinbase.com/checkout/56cbdf28-e323-48d8-9c98-7019e72c97f3"
+    }
+  ],
+  "license": "MIT",
+  "author": "Marcin Ignac (https://github.com/vorg)",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "main": "./index.js",
+  "types": "./types/index.d.ts",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "packageManager": "npm@10.5.1"
+}
